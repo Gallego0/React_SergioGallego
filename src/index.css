@@ -325,7 +325,7 @@ nav .menu-btn,
         padding: 0px;
         margin-top: 90px;
         font-family: 'Alfa Slab One';
-        margin-bottom: 100px;
+        margin-bottom: 40px;
 }
 #contact form{
     width:600px;
@@ -363,6 +363,56 @@ nav .menu-btn,
     transition: all ease 0.5s;
     color: #3d2514;
     border: 2px solid #bf2222;
+}
+
+#contact label {
+    color: #ffffff;
+    margin-right: 300px;
+}
+
+#contact form #Hora  {
+    width: 48%;
+    height: 50px;
+    margin: 10px 0px; /* Aumentar el espacio entre los elementos */
+    padding: 10px;
+    margin-right: 310px;
+    border: none;
+    outline: none;
+    background-color: #110c09;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One';
+    margin-top: -60px;
+}
+
+#contact form #Hora:hover{
+	background-color: #ffffff;
+    transition: all ease 0.5s;
+    color: #3d2514;
+    border: 2px solid #bf2222; 
+
+}
+
+#contact form #numero_personas {
+    width: 48%;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 5px;
+    margin-left: 310px;
+    border: none;
+    outline: none;
+    background-color: #110c09;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One';
+}
+
+#contact form #numero_personas:hover{  
+	background-color: #ffffff;
+    transition: all ease 0.5s;
+    color: #3d2514;
+    border: 2px solid #bf2222; 
+
 }
 
 .section__padding{
@@ -504,16 +554,20 @@ hr{
 
 
 
-@media(max-width:620px){
+@media screen and (max-width:620px){
     #contact form{
         width:90%;
     }
+
+    #contact form #numero_personas, #contact form #Hora{
+        width:45%;
+    } 
     .mapa-image iframe{
         width: 620px;
     }
 }
 
-@media(max-width:1190px){
+@media screen and (max-width:1190px){
 	#main{
 		background-size: 1150px !important;
 		
@@ -570,7 +624,7 @@ hr{
 
 }
 
-@media(max-width:970px){
+@media screen and (max-width:970px){
 	#main{
 		height: 650px;
 	}
@@ -623,7 +677,7 @@ hr{
         width: 970px;
     }
 }
-@media(max-width:600px){
+@media screen and (max-width:600px){
 	.header-heading{
 		width:60%;
     }
@@ -635,7 +689,7 @@ hr{
     }
 }
 
-@media(max-width:1100px){.menu-icon{
+@media screen and (max-width:1100px){.menu-icon{
     display:block;}
         nav .menu img{
             justify-content: space-between;
@@ -789,9 +843,95 @@ hr{
     padding: 5px 7px;
 }
 
-.PacmanLoader-container {
+.BounceLoader-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; 
+    background-color: #3d2514;
 }
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegura que el logo esté sobre el BounceLoader */
+}
+
+.logo-img {
+    max-width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    max-height: 50px;
+    /* Agrega cualquier otro estilo necesario para tu logo */
+}
+
+
+/* Estilos para pantallas con ancho máximo de 850px */
+@media screen and (max-width: 850px) {
+    .imagen-carrusel {
+      width: 80%;
+      max-width: 100%;
+    }
+  
+    .header-heading,
+    .pr-heading {
+      width: 80%;
+    }
+  
+    .mapa-image iframe {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas con ancho máximo de 620px */
+  @media screen and (max-width: 620px) {
+    .imagen-carrusel {
+      width: 90%;
+      max-width: 100%;
+    }
+  
+    .header-heading,
+    .pr-heading {
+      width: 90%;
+    }
+  
+    .mapa-image iframe {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas con ancho máximo de 550px */
+  @media screen and (max-width: 550px) {
+    .imagen-carrusel {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .header-heading,
+    .pr-heading {
+      width: 100%;
+    }
+  
+    .mapa-image iframe {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas con ancho máximo de 400px */
+  @media screen and (max-width: 400px) {
+    .imagen-carrusel {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .header-heading,
+    .pr-heading {
+      width: 100%;
+    }
+  
+    .mapa-image iframe {
+      width: 100%;
+    }
+  }
+  /* Agrega estilos adicionales para otros puntos de ruptura según sea necesario */
+  
