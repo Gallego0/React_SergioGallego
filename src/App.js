@@ -29,7 +29,7 @@ function App() {
         {
           loading ? 
           <div className="PacmanLoader-container">
-            <PacmanLoader color={'#3d2514'} loading={loading} size={100} />
+            
           </div>
           :
           <>
