@@ -37,7 +37,7 @@ function Inicio() {
       </Slider>
       <div className='header-heading'>
         <h3>Menú diario  12,50€</h3>
-        <h1><span>HAMBURGUESA</span><br/>DE LA CASA</h1>
+        <h1><span>BURGER</span><br/>DE LA CASA</h1>
         <p className='details'>Hamburguesa + patatas + bebida grande</p>
         <div className='header-btns'>
           <button className='header-btn'><Link to="productos" smooth={true} duration={900}>Ver Carta</Link></button>

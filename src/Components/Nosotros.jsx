@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutimage from '../images/about1.png';
+import aboutimage from '../images/about.png';
 
 function Nosotros() {
   return (
