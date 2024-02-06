@@ -10,7 +10,7 @@ import pimage6 from '../images/hamburguesa3.png';
 
 function Productos() {
   return (
-    <div id="productos">
+    <div id="productos" loading="lazy">
       <h1>NUESTRA CARTA</h1>
       <p>Nuestra carta es distinguirnos por el uso de ingredientes de calidad y colaborar con proveedores locales</p>
       <div className='a-container'>
