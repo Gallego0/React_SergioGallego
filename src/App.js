@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       {loading ? (
         <div className="BounceLoader-container">
-          <BounceLoader color={'#d6d6d6'} loading={loading} size={300} />
+          <BounceLoader color={'#d6d6d6'} loading={loading} size={250} />
         </div>
       ) : (
         <>

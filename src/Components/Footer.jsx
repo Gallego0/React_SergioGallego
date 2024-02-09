@@ -40,21 +40,7 @@ function Footer() {
                             <a href="http://www.ebanisteriaycarpinteriagallego.com">Ebanisteria Gallego</a>
                         </a>
                     </div>
-                    <div className="sb__footer-links_div">
-                        <h4>Compañia</h4>
-                        <a href="/nosotros">
-                            <p>Sobre nosotros</p>
-                        </a>
-                        <a href="/prensa">
-                            <p>Prensa</p>
-                        </a>
-                        <a href="/carrera">
-                            <p>Carrera</p>
-                        </a>
-                        <a href="/contacto">
-                            <p>Contacto</p>
-                        </a>
-                    </div>
+                   
                     <div className="sb__footer-links_div">
                         <h4>Redes Sociales</h4>
                         <div className="socialmedia">
